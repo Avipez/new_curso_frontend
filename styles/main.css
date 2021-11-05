@@ -2,8 +2,11 @@
     --white: #fff;
     --black: #000;
     --very-light-pink: #c7c7c7;
-    --very-input-field: #f7f7f7;
+    --text-input-field: #f7f7f7;
     --hospital-green: #acd9b2;
+    --sm: 14px;
+    --md: 16px;
+    --lg: 18px;
 }
 
 body {
@@ -12,21 +15,5 @@ body {
 
 body {
     margin: 0;
-};
-
-.login {
-    width: 100%;
-    height: 100vh;
-    display: grid;
-    place-items: center;
-};
-
-.form-container {
-    display: grid;
-    grid-template-rows: auto 1fr auto;
-    width: 300px
-};
-
-.logo {
-
 }
+
