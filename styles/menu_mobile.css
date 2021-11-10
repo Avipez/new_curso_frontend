@@ -1,0 +1,38 @@
+.mobile_menu {
+    padding: 24px;
+}
+
+.mobile_menu a {
+    text-decoration: none;
+    color: var(--black);
+    font-weight: bold;
+    margin-bottom: 24px;
+}
+
+.mobile_menu ul {
+    margin: 0;
+    padding: 24px 0 0;
+    list-style: none;
+}
+
+.mobile_menu ul li {
+    margin-bottom: 24px;
+}
+
+.mobile_menu ul:nth-child(1) {
+    border-bottom: 1px solid var(--very-light-pink);
+}
+
+.mobile_menu ul:nth-child(3) {
+    margin-top: 100px;
+    }
+
+.mobile_menu .email {
+    font-size: var(--sm);
+    font-weight: 300;
+}
+
+.mobile_menu .sign_out {
+    color: var(--hospital-green);
+
+}
